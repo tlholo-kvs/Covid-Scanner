@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Covid Scanner</string>
+    <string name="enter_school_name">Enter school name</string>
+    <string name="enter_school_e_mail">Enter school e-mail</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="please_confirm_password">Please confirm password</string>
+    <string name="register">Register</string>
+</resources>

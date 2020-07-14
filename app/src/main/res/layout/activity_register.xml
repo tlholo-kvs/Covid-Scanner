@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".Register">
+
+    <EditText
+        android:id="@+id/etSchoolName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marginStart_20dp"
+        android:layout_marginTop="@dimen/marginTop_20"
+        android:layout_marginEnd="@dimen/marginEnd_20dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/enter_school_name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etSchoolEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marginStart_20dp"
+        android:layout_marginTop="@dimen/marginTop_20dp"
+        android:layout_marginEnd="@dimen/marginEnd_20dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/enter_school_e_mail"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marginStart_20dp"
+        android:layout_marginTop="@dimen/marginTop_20dp"
+        android:layout_marginEnd="@dimen/marginEnd_20dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/enter_your_password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/etReenterPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marginStart_20dp"
+        android:layout_marginTop="@dimen/marginTop_20dp"
+        android:layout_marginEnd="@dimen/marginEnd_20dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/please_confirm_password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnRegSchool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marginStart_20dp"
+        android:layout_marginTop="@dimen/marginTop_20dp"
+        android:layout_marginEnd="@dimen/marginEnd_20dp"
+        android:background="@color/btn_background"
+        android:text="@string/register"
+        android:textColor="@color/btn_text"
+        android:textStyle="bold" />
+</LinearLayout>
