@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CreateLearner">
+
+    <EditText
+        android:id="@+id/etLearnerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marginStart_20dp"
+        android:layout_marginTop="@dimen/marginTop_20"
+        android:layout_marginEnd="@dimen/marginEnd_20dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="Enter Learner Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etLearnerSurname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marginStart_20dp"
+        android:layout_marginTop="@dimen/marginTop_20"
+        android:layout_marginEnd="@dimen/marginEnd_20dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="Enter Learner Surname"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etLearnersGrade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marginStart_20dp"
+        android:layout_marginTop="@dimen/marginTop_20"
+        android:layout_marginEnd="@dimen/marginEnd_20dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="Enter Learner Grade"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tvScan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marginStart_20dp"
+        android:layout_marginTop="@dimen/marginTop_20"
+        android:layout_marginEnd="@dimen/marginEnd_20dp"
+        android:clickable="true"
+        android:gravity="center_horizontal"
+        android:text="Scan Barcode"
+        android:textColor="@color/colorAccent"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnSubmitLearner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marginStart_20dp"
+        android:layout_marginTop="@dimen/marginTop_20"
+        android:layout_marginEnd="@dimen/marginEnd_20dp"
+        android:background="@color/btn_background"
+        android:text="Submit Learner"
+        android:textColor="@color/btn_text"
+        android:textStyle="bold" />
+</LinearLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RecordScreening">
+
+    <TextView
+        android:id="@+id/tvLearnerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marginStart_20dp"
+        android:layout_marginTop="@dimen/marginTop_20"
+        android:layout_marginEnd="@dimen/marginEnd_20dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/tvTextSize"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvGrade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marginStart_20dp"
+        android:layout_marginTop="@dimen/marginTop_20"
+        android:layout_marginEnd="@dimen/marginEnd_20dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/tvTextSize24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marginStart_20dp"
+        android:layout_marginTop="@dimen/marginTop_20"
+        android:layout_marginEnd="@dimen/marginEnd_20dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/textViewTextSize12sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/cbTravel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marginStart_20dp"
+        android:layout_marginTop="@dimen/marginTop_20"
+        android:layout_marginEnd="@dimen/marginEnd_20dp"
+        android:text="@string/screen_q1" />
+
+    <CheckBox
+        android:id="@+id/cbContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marginStart_20dp"
+        android:layout_marginTop="@dimen/marginTop_20"
+        android:layout_marginEnd="@dimen/marginEnd_20dp"
+        android:text="@string/screen_q2" />
+
+    <CheckBox
+        android:id="@+id/cbSymptoms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marginStart_20dp"
+        android:layout_marginTop="@dimen/marginTop_20"
+        android:layout_marginEnd="@dimen/marginEnd_20dp"
+        android:text="@string/screen_q3" />
+
+    <EditText
+        android:id="@+id/etTemp"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="@dimen/marginStart_20dp"
+        android:layout_marginTop="@dimen/marginTop_20"
+        android:layout_marginEnd="@dimen/marginEnd_20dp"
+        android:gravity="center_horizontal"
+        android:hint="@string/et_enter_temp"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnSubmitScreening"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marginStart_20dp"
+        android:layout_marginTop="@dimen/marginTop_20"
+        android:layout_marginEnd="@dimen/marginEnd_20dp"
+        android:background="@color/btn_background"
+        android:text="@string/btn_submit"
+        android:textColor="@color/btn_text"
+        android:textStyle="bold" />
+</LinearLayout>

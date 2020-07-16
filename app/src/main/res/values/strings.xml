@@ -5,4 +5,13 @@
     <string name="enter_your_password">Enter your password</string>
     <string name="please_confirm_password">Please confirm password</string>
     <string name="register">Register</string>
+    <string name="btnScan">Scan and enter data</string>
+    <string name="btnSeeData">See all data of a specific learner</string>
+    <string name="btnNewLearner">New learner</string>
+    <string name="logout">logout</string>
+    <string name="screen_q1">Did you travel to a high risk country in the last 14 days?</string>
+    <string name="screen_q2">Did you have contact with anyone with confirmed COVID-19 in the last 14 days?</string>
+    <string name="screen_q3">Do you have symptoms such as fever, cough or difficulty breathing?</string>
+    <string name="et_enter_temp">Enter Temperature</string>
+    <string name="btn_submit">Submit</string>
 </resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MenuActivity">
+
+    <ImageView
+        android:id="@+id/ivIcon"
+        android:layout_width="match_parent"
+        android:layout_height="381dp"
+        android:layout_marginStart="@dimen/marginStart_20dp"
+        android:layout_marginTop="@dimen/marginTop_20"
+        android:layout_marginEnd="@dimen/marginEnd_20dp"
+        app:srcCompat="@drawable/covid_icon" />
+
+    <Button
+        android:id="@+id/btnScanData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marginStart_20dp"
+        android:layout_marginTop="@dimen/marginTop_15dp"
+        android:layout_marginEnd="@dimen/marginEnd_20dp"
+        android:background="@color/btn_background"
+        android:text="@string/btnScan"
+        android:textColor="@color/btn_text"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnSeeData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marginStart_20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="@dimen/marginEnd_20dp"
+        android:background="@color/btn_background"
+        android:text="@string/btnSeeData"
+        android:textColor="@color/btn_text"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnNewLearner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marginStart_20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="@dimen/marginEnd_20dp"
+        android:background="@color/btn_background"
+        android:text="@string/btnNewLearner"
+        android:textColor="@color/btn_text"
+        android:textStyle="bold" />
+</LinearLayout>

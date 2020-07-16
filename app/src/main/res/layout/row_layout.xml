@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marginStart_20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="@dimen/marginEnd_20dp"
+        android:text="Date"
+        android:textColor="@color/btn_text"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvTemp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marginStart_20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="@dimen/marginEnd_20dp"
+        android:text="Temperature"
+        android:textColor="@color/btn_text"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tvTravel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marginStart_20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="@dimen/marginEnd_20dp"
+        android:text="@string/screen_q1"
+        android:textColor="@color/btn_text"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tvContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marginStart_20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="@dimen/marginEnd_20dp"
+        android:text="@string/screen_q2"
+        android:textColor="@color/btn_text"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tvSymptoms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marginStart_20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="@dimen/marginEnd_20dp"
+        android:text="@string/screen_q3"
+        android:textColor="@color/btn_text"
+        android:textSize="24sp" />
+
+</LinearLayout>
